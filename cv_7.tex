@@ -1,0 +1,225 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Jatinpreet} % Your first name
+\familyname{Singh} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Scarborough}{Toronto, Ontario}
+\mobile{(437) 988 2727}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{jatin1885ca@gmail.com}
+\homepage{linkedin.com/in/jatinpreetsingh/}{linkedin.com/in/jatinpreetsingh/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Extra Info}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"The more writers we read, the better our understanding of our own mind stands to be." - \textsc {The School of Life}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Department}{Canada} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+\begin{flushleft}
+It is with great enthusiasm that I write my application for the cyber security position and would like to be considered by your company. As a cyber security professional with one year of combined experience and multiple years of freelancing experience, I know my skills and qualifications will make me an asset to your company.
+
+I have gained experience in learning how to keep computer systems and servers secure from external attack. I understand that a career in cyber security requires continuous education as with each passing day of technological advancement, hackers gain new ways to infiltrate computer systems. 
+
+
+My strengths lie in problem solving and I love the challenge of being one step ahead. I also have great skills in rules of composition which are important when creating documents and reports. From a young age, I was drawn towards the field and have been participating in bug bounty programs. Apart from having won various cash prizes, I was also awarded a brand-new Nokia smartphone for having reported a serious bug in the company’s website.
+
+
+I am thrilled at the possibility of working for your company.
+
+\end{flushleft}
+\makeletterclosing % Print letter signature
+
+\newpage{}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2014--2018}{Bachelor of Engineering (Computer Science)}{Chandigarh University}{\newline{} Punjab}{{}}{}  % Arguments not required can be left empty
+\cventry{2019--2019}{Information Systems Security}{Durham College}{Toronto, Canada}{\textit{}}{President's Roll of Honour}
+\cventry{2019--2020}{Project Management}{Durham College}{Toronto, Canada}{\textit{}}{Roll of Honour}
+\cventry{\textsc{Overall GPA}}{\textsc{4/5}}{}{}{}{}
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+%\subsection{Vocational}
+
+\cventry{2019--2019}{IT Security Analyst}{\textsc{FT Security Inc.}}{Toronto}{}{
+\begin{itemize}
+\item Recover clients’ systems from malware
+\item Manage existing infrastructure
+\item IT Troubleshooting
+\end{itemize}}
+%------------------------------------------------
+
+\cventry{2019--2019}{Cyber Security Analyst Intern}{\textsc{IntelliGO Networks}}{Toronto}{}{
+\begin{itemize}
+\item Conduct daily Endpoint \& Network investigations
+\item Collect and analyze results into centralized Elasticsearch cluster
+\item Analyze various types of Malware.\newline{}
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2018--2018}{Cyber Security Analyst}{\textsc{The Geeks Co.}}{Chandigarh}{}{
+\begin{itemize}
+\item Manage the clients’ website and scan for vulnerabilities in the web application
+\item Generate a security assessment report
+\item Respond to customer’s queries
+\end{itemize}}
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+%\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+
+\cventry{2011--2015}{Penetration Tester}{Freelancer}{Chandigarh}{}{I performed penetration tests on various companies' websites while being in line with its policies. I then made a report of my findings and reported it to the respective SOC and got rewarded for the valid findings. The full list of companies is given in Awards section.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards (Bug Bounties)}
+
+\cvitem{Oracle}{Name acknowledged in Oracle Patch Advisory(2x)}
+\cvitem{At\&t}{Cash Reward}
+\cvitem{Nokia}{Nokia Lumia phone was awarded}
+\cvitem{Adobe}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Angel.co}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Apple}{Official acknowledgement and Hall of Fame mention}
+\cvitem{BlackBerry}{Official acknowledgement and Hall of Fame mention}
+\cvitem{FoxyCart}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Microsoft}{Official acknowledgement and Hall of Fame mention}
+\cvitem{PagerDuty}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Rdio}{Official acknowledgement and Hall of Fame mention}
+\cvitem{SoundCloud}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Schuberg Philis}{Official acknowledgement and Hall of Fame mention}
+\cvitem{Yahoo!}{Goodies were awarded}
+\cvitem{NCSC}{Goodies were awarded by National Cyber Security Center, Netherlands}
+\cvitem{AdWork Media LLC}{Multiple cash rewards and a job recommendation certificate}
+\cvitemwithcomment{}{\textit{Links \& Proofs available on request}}{}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Basic}{Forensics, Sys Admin, \LaTeX}
+\cvitem{Intermediate}{Kibana, Splunk, ElasticSearch, Malware Analysis, Network Security, Virtualization, VMWare, Kali, Penetration Testing, Firewalls, Linux, Microsoft Windows, Adobe Photoshop, \textsc{html}}
+\cvitem{Advanced}{Computer Hardware and Support}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2019}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Punjabi}{Mothertongue}{}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{Hindi}{Fluent}{}
+\cvitemwithcomment{Urdu}{Basic}{Conversationally fluent}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Hiking}{RTS Gaming}
+\cvlistdoubleitem{IoT}{Self Hosting Servers}
+\cvlistitem{Snowboarding}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
